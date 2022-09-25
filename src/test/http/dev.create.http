@@ -1,0 +1,7 @@
+POST http://localhost:8080/create-developer
+Content-Type: application
+
+{
+    "id": 999,
+    "value": "content"
+}
