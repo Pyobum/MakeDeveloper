@@ -122,7 +122,7 @@ class SpringServiceTest {
         // then
         SpringException springException = assertThrows(SpringException.class, 
             () -> springService.createDeveloper(
-                getCreateRequest(SENIOR, FRONT_END, MIN_SENIOR_EXPERIENCE_YEARS-1)
+                getCreateRequest(SENIOR, FRONT_END, MIN_SENIOR_EXPERIENCE_YEARS - 1)
             )
         );
 
